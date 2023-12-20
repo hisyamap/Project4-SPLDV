@@ -115,7 +115,7 @@
                                 />
                             </div>
                             <div class="card-body col-md-4 blog-title">
-                                <a href="https://phet.colorado.edu/in/simulations/equality-explorer-two-variables" class="stretched-link">Equality Explorer: Two Variables</a>
+                                <a href="https://phet.colorado.edu/in/simulations/equality-explorer-two-variables" target="_blank" class="stretched-link">Equality Explorer: Two Variables</a>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                                 />
                             </div>
                             <div class="card-body col-md-4 blog-title">
-                                <a href="https://www.geogebra.org/graphing?lang=en" class="stretched-link">Graphing Calculator</a>
+                                <a href="https://www.geogebra.org/graphing?lang=en" target="_blank" class="stretched-link">Graphing Calculator</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                                 />
                             </div>
                             <div class="card-body col-md-4 blog-title">
-                                <a href="https://mathigon.org/task/simultaneous-equations" class="stretched-link">Simultaneous Equations</a>
+                                <a href="https://mathigon.org/task/simultaneous-equations" target="_blank" class="stretched-link">Simultaneous Equations</a>
                             </div>
                         </div>
                     </div>
@@ -159,10 +159,16 @@
                                 />
                             </div>
                             <div class="card-body col-md-4 blog-title">
-                                <a href=" https://www.wolframalpha.com/examples/mathematics/algebra/equation-solving" class="stretched-link">Equation Solving</a>
+                                <a href=" https://www.wolframalpha.com/examples/mathematics/algebra/equation-solving" target="_blank" class="stretched-link">Equation Solving</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            <div class="pt-5 pb-3 d-flex justify-content-evenly">
+                <a href="logout.php" rel="noopener noreferrer">
+                    <button class="button-logout" type="button">
+                    Logout
+                    </button></a>
                 </div>
             </div>
         </div>
