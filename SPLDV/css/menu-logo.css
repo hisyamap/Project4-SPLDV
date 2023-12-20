@@ -1,0 +1,275 @@
+.gg-cap {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,2));
+    width: 18px;
+    height: 12px;
+    border: 2px solid;
+    border-bottom-color: transparent;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px
+}
+.gg-cap::after,
+.gg-cap::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-cap::after {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-shadow:
+        0 0 0 2px,
+        inset 12px 0 0 0;
+    bottom: -8px;
+    width: 18px;
+    height: 6px;
+    border-radius: 1px;
+    left: -2px
+}
+.gg-cap::before {
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 2px;
+    left: 5px;
+    top: -4px
+}
+
+
+.gg-file-document {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,2));
+    width: 14px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0 2px;
+    border-radius: 1px;
+    border-top-right-radius: 4px;
+    overflow: hidden
+}
+.gg-file-document::after,
+.gg-file-document::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-file-document::before {
+    background: currentColor;
+    box-shadow:
+        0 4px 0,
+        -6px -4px 0;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    top: 8px
+}
+.gg-file-document::after {
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    right: -1px;
+    top: -1px
+}
+
+
+.gg-file-remove {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,2));
+    width: 14px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0 2px;
+    border-radius: 1px;
+    border-top-right-radius: 4px;
+    overflow: hidden
+}
+.gg-file-remove::after,
+.gg-file-remove::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px
+}
+.gg-file-remove::before {
+    background: currentColor;
+    left: 2px;
+    height: 2px;
+    top: 9px
+}
+.gg-file-remove::after {
+    height: 6px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    right: -1px;
+    top: -1px
+}
+
+
+.gg-math-divide {
+    transform: scale(var(--ggs,2))
+}
+.gg-math-divide,
+.gg-math-divide::after,
+.gg-math-divide::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 20px
+}
+.gg-math-divide::after,
+.gg-math-divide::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: -6px;
+    left: 6px
+}
+.gg-math-divide::after {
+    top: 4px
+}
+
+
+.gg-math-percent {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(-45deg) scale(var(--ggs,2));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 20px
+}
+.gg-math-percent::after,
+.gg-math-percent::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 20px;
+    top: -7px;
+    left: 6px
+}
+.gg-math-percent::after {
+    top: 5px
+}
+
+
+.gg-math-equal {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,2));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 10px;
+    margin-top: -6px;
+    box-shadow: 0 6px 0
+}
+
+
+.gg-album {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+    transform: scale(var(--ggs,2));
+    border-left: 7px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 8px solid transparent;
+    box-shadow: 0 0 0 2px,
+       inset 6px 4px 0 -4px,
+       inset -6px 4px 0 -4px;
+    border-radius: 3px
+ }
+ .gg-album::after,
+ .gg-album::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 5px;
+    background: currentColor;
+    transform: rotate(46deg);
+    top: 5px;
+    right: 4px
+ }
+ .gg-album::after {
+    transform: rotate(-46deg);
+    right: 2px
+ }
+
+
+ .gg-user-list {
+    display: block;
+    transform: scale(var(--ggs,2));
+    box-sizing: border-box;
+    width: 20px;
+    height: 18px;
+    background:
+      linear-gradient(
+        to left,
+        currentColor 8px,
+        transparent 0)
+        no-repeat 14px 4px/6px 2px,
+      linear-gradient(
+        to left,
+        currentColor 8px,
+        transparent 0)
+        no-repeat 14px 8px/6px 2px,
+      linear-gradient(
+        to left,
+        currentColor 8px,
+        transparent 0)
+        no-repeat 14px 12px/6px 2px
+}
+.gg-user-list::after,
+.gg-user-list::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+.gg-user-list::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+}
+.gg-user-list::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    top: 9px
+}
+
+

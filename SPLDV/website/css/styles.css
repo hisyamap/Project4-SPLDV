@@ -1,0 +1,325 @@
+div
+{
+   font-family: Afacad;
+}
+
+#announce-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #E38B29;
+}
+
+.nav > li
+{
+    padding-inline: 20px;
+} 
+
+.navbar  
+{
+    font-size: 16px;
+    height: 150px;
+    position: relative;
+}
+ 
+#navbar
+{
+    background-color: #FDEEDC;
+}
+
+body .btn-primary 
+{
+    background-color: #FFD8A9;
+    border-color: #FFD8A9;
+    color: black; 
+}
+    body .btn-primary:hover, body .btn-primary:focus 
+    {
+      border-color: #E38B29;
+      background-color: #E38B29;
+      color: #FFF; 
+    }
+    body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:focus, body .btn-primary:active:hover 
+    {
+      border-color: #E38B29;
+      background-color: #E38B29;
+      color: #FFF; 
+    }
+
+.navbar-brand
+{
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 15%;
+    position: absolute;
+}
+
+.website-name
+{
+    font-size: 60px;
+    color: #E38B29;
+}
+
+.navbar-nav > li > .dropdown-menu, .navbar-nav > li > .dropdown-menu a:link
+{ 
+    background-color: #FFD8A9;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover 
+{ 
+    background-color: #E38B29;
+}
+
+#website-contents-1
+{
+    background-color: #FFD8A9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#website-contents-2
+{
+    background-color: #F1A661 ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#website-contents-3
+{
+    background-color: #FECD80 ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#website-contents-4
+{
+    background-color: #FFAE6D  ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#website-footer
+{
+    background-color: #E3C770 ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-text
+{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-card-group
+{
+    padding-inline: 150px;
+}
+
+.blog-image
+{
+    padding: 20px;
+    height: 80px;
+}
+
+.blog-title
+{
+    display: flex;
+    align-items: center;
+}
+
+.row
+{
+    background-color: #FDEEDC;
+}
+
+.card-body > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body > a:hover
+{
+    color: #E38B29;
+}
+
+.greet-text
+{
+    text-align: center;
+}
+
+.menu-container
+{
+    text-align: center;
+}
+
+.menu-title
+{
+    font-size: 20px;
+}
+
+.menu-card-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom : 20px;
+}
+
+.menu-card
+{
+    padding-top : 40px;
+    padding-bottom: 10px;
+}
+
+.menu-card:hover
+{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.menu-card-group
+{
+    padding-inline: 100px;
+}
+
+.card-group > .menu-card
+{
+    background-color: #FDEEDC;
+}
+
+.menu-card-group > .card-body
+{
+    box-shadow: inset;
+}
+
+.button-logout
+{
+    font-size: 20px;
+    padding: 10px;
+    padding-inline: 40px;
+    border: 0px;
+}
+
+.button-logout:hover
+{
+    background-color: #E38B29;
+    color: white;
+}
+
+.pemantik
+{
+    padding-inline: 150px;
+    font-size: 18px;
+}
+
+.pemantik2
+{
+    padding-inline: 100px;
+    font-size: 18px;
+}
+
+.pemantik > h3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.pemantik > p
+{
+    padding-top: 10px;
+}
+
+.collapse > .bahas-card
+{
+    background-color: #FDEEDC;
+    margin-bottom: 30px;
+}
+
+.soal 
+{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+hr
+{
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
+
+.submit
+{
+    background-color: #FFD8A9;
+    width: 10%;
+}
+
+.submit:hover
+{
+    background-color: #E38B29;
+    color: white;
+}
+
+.card-sumber
+{
+    background-color: #E38B29;
+}
+
+.card-sumber > li
+{
+    background-color: #FDEEDC;
+    border: black;
+    border: 1px solid;
+}
+
+.border-kuis
+{
+    border: 2px solid;
+}
+
+.table-kuis > th, td
+{
+    padding: 10px;
+    font-weight: normal;
+}
+
+.table-kuis > th
+{
+    background-color: #E38B29;
+    color: white;
+}
+
+.table-kuis > td
+{
+    background-color: #FDEEDC;
+}
+
+.table
+{
+    display: flex;
+    justify-content: center;
+    padding-inline: 200px;
+}
+
+.table-kami > th, td
+{
+    padding: 10px;
+    font-weight: normal;
+}
+
+.table-kami > th
+{
+    background-color: #E38B29;
+    color: white;
+    font-size: 24px;
+}
+
+.table-kami > td
+{
+    background-color: #FDEEDC;
+}
