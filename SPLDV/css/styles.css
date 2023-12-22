@@ -46,13 +46,29 @@ body .btn-primary
 {
     transform: translateX(-50%);
     left: 50%;
-    bottom: 15%;
+    bottom: 24%;
     position: absolute;
+}
+
+.navbar-brand-desc
+{
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 18%;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
 }
 
 .website-name
 {
-    font-size: 60px;
+    font-size: 64px;
+    color: #E38B29;
+}
+
+.website-name-desc
+{
+    font-size: 18px;
     color: #E38B29;
 }
 
@@ -269,6 +285,20 @@ hr
     background-color: #FDEEDC;
     border: black;
     border: 1px solid;
+}
+
+.row-sumber
+{
+    border-top: 1px solid;
+}
+
+.row-sumber > .col
+{
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .border-kuis

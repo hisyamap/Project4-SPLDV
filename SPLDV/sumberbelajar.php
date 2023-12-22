@@ -23,8 +23,9 @@
                         <li class="nav-item">
                             <a class="btn btn-primary" href="apersepsi.php">Apersepsi</a>
                         </li>
-                        <a class="navbar-brand" href="index.php"><h1 class="website-name">SPLDV</h1></a>
                     </ul>
+                        <a class="navbar-brand" href="index.php"><h1 class="website-name">SPLDV</h1></a>
+                        <a class="navbar-brand-desc" href="index.php"><h5 class="website-name-desc">Sistem Persamaan Linear Dua Variabel</h5></a>
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item dropdown">
                             <a
@@ -69,13 +70,21 @@
                 <div class="pemantik">
                     <div class="card border-black border-2">
                         <div class="card-body card-sumber">
-                            <h4 class="card-title"><h4 class="text-white">Website</h4></h4>
+                            <h4 class="card-title"><h4 class="text-white">Buku</h4></h4>
                         </div>
-                        <ul class="list-group list-group-flush card-sumber">
-                            <li class="list-group-item "><a class="text-black" href="https://www.brilio.net/ragam/17-contoh-soal-spldv-sistem-persamaan-linear-dua-variable-ulasan-2210268.html">17 Contoh soal SPLDV (Sistem Persamaan Linear Dua Variable) & ulasan</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://www.ruangguru.com/blog/matematika-kelas-8-cara-menyelesaikan-sistem-persamaan-linear-dua-variabel-spldv">Cara Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) | Matematika Kelas 8</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://idschool.net/smp/sistem-persamaan-linear-dua-variabel-spldv/">Sistem Persamaan Linear Dua Variabel (SPLDV)</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://www.zenius.net/blog/persamaan-linear-2-substitusi-eliminasi">Persamaan Linear Dua Variabel: Metode Eliminasi & Substitusi</a></li>
+                        <div class="container-fluid">
+                            <div class="row row-sumber">
+                                <div class="col">
+                                    <a href="buku/BUKU AJAR SPLDV SMP KELAS IX.pdf" class="m-2" target="_blank"><img src="image/Buku1.png" style="width:200px;height:280px;"></a>
+                                </div>
+                                <div class="col">
+                                    <a href="buku/MODUL SPLDV.pdf" class="m-2" target="_blank"><img src="image/Buku2.png" style="width:200px;height:280px;"></a>
+                                </div>
+                                <div class="col">
+                                    <a href="buku/BAHAN AJAR SPLDV.pdf" class="m-2" target="_blank"><img src="image/Buku3.png" style="width:200px;height:280px;"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,15 +94,32 @@
                 <div class="pemantik">
                     <div class="card border-black border-2">
                         <div class="card-body card-sumber">
+                            <h4 class="card-title"><h4 class="text-white">Website</h4></h4>
+                        </div>
+                        <ul class="list-group list-group-flush card-sumber">
+                            <li class="list-group-item "><a class="text-black" href="https://www.brilio.net/ragam/17-contoh-soal-spldv-sistem-persamaan-linear-dua-variable-ulasan-2210268.html" target="_blank">17 Contoh soal SPLDV (Sistem Persamaan Linear Dua Variable) & ulasan</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://www.ruangguru.com/blog/matematika-kelas-8-cara-menyelesaikan-sistem-persamaan-linear-dua-variabel-spldv" target="_blank">Cara Menyelesaikan Sistem Persamaan Linear Dua Variabel (SPLDV) | Matematika Kelas 8</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://idschool.net/smp/sistem-persamaan-linear-dua-variabel-spldv/" target="_blank">Sistem Persamaan Linear Dua Variabel (SPLDV)</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://www.zenius.net/blog/persamaan-linear-2-substitusi-eliminasi" target="_blank">Persamaan Linear Dua Variabel: Metode Eliminasi & Substitusi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="website-contents-4">
+            <div class="container">
+                <div class="pemantik">
+                    <div class="card border-black border-2">
+                        <div class="card-body card-sumber">
                             <h4 class="card-title"><h4 class="text-white">Youtube</h4></h4>
                         </div>
                         <ul class="list-group list-group-flush card-sumber">
-                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/QNigb4Art5Y?si=rTk7Or0r_BXPitw6">Sistem persamaan linear dua variabel (SPLDV) Metode subtitusi, Eliminasi dan Campuran</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/LwUHflmbBss?si=b178LRso-B3Q30xf">Eliminasi dan Subtitusi</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/ElWRvID3Xdo?si=k1y3ApOiE1v4BgEF">Metode Eliminasi-Substitusi Menyelesaikan Sistem Persamaan Linear Dua Variabel. SMP Kelas 8 dan 9</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/NTb4UfpW_H0?si=aXaC5A2DLIOQJknO">Cara mudah sistem persamaan linear dua variabel menggunakan metode eliminasi, subtitusi dan campuran</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/1Kunm-46J0k?si=iVz5j0ZSQn-lSzmQ">Metode Gabungan, Eliminasi dan Substitusi. SPLDV</a></li>
-                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/WECmvq_l7VU?si=KXvqqGOhlplbqJGO">Metode substitusi, Metode Eliminasi, Eliminasi Aljabar - Matematika SMP - SPLDV (2)</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/QNigb4Art5Y?si=rTk7Or0r_BXPitw6" target="_blank">Sistem persamaan linear dua variabel (SPLDV) Metode subtitusi, Eliminasi dan Campuran</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/LwUHflmbBss?si=b178LRso-B3Q30xf" target="_blank">Eliminasi dan Subtitusi</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/ElWRvID3Xdo?si=k1y3ApOiE1v4BgEF" target="_blank">Metode Eliminasi-Substitusi Menyelesaikan Sistem Persamaan Linear Dua Variabel. SMP Kelas 8 dan 9</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/NTb4UfpW_H0?si=aXaC5A2DLIOQJknO" target="_blank">Cara mudah sistem persamaan linear dua variabel menggunakan metode eliminasi, subtitusi dan campuran</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/1Kunm-46J0k?si=iVz5j0ZSQn-lSzmQ" target="_blank">Metode Gabungan, Eliminasi dan Substitusi. SPLDV</a></li>
+                            <li class="list-group-item "><a class="text-black" href="https://youtu.be/WECmvq_l7VU?si=KXvqqGOhlplbqJGO" target="_blank">Metode substitusi, Metode Eliminasi, Eliminasi Aljabar - Matematika SMP - SPLDV (2)</a></li>
                         </ul>
                     </div>
                 </div>

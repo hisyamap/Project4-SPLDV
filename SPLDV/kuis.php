@@ -27,8 +27,9 @@ $resultMessage = isset($_GET['resultMessage']) ? $_GET['resultMessage'] : '';
                         <li class="nav-item">
                             <a class="btn btn-primary" href="apersepsi.php">Apersepsi</a>
                         </li>
-                        <a class="navbar-brand" href="index.php"><h1 class="website-name">SPLDV</h1></a>
                     </ul>
+                        <a class="navbar-brand" href="index.php"><h1 class="website-name">SPLDV</h1></a>
+                        <a class="navbar-brand-desc" href="index.php"><h5 class="website-name-desc">Sistem Persamaan Linear Dua Variabel</h5></a>
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item dropdown">
                             <a
